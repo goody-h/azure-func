@@ -6,7 +6,6 @@ module.exports = async function (context, req) {
     const responses = ["נ (Nun)","ג (Gimmel)", "ה (Hay)", "ש (Shin)"];
 
     context.res = {
-        // status: 200, /* Defaults to 200 */
         body: responses[rnd]
     };
 };
